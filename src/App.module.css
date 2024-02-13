@@ -1,0 +1,50 @@
+.userCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: 50px;
+}
+
+.loader {
+  margin: 50px 0 50px 46%;
+}
+
+.errorIcon {
+  margin-top: 50px;
+  color: red;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.errorText {
+  margin-bottom: 50px;
+  text-align: center;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 985px) {
+  .userCards {
+    margin: 40px 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .userCards {
+    justify-content: space-evenly;
+  }
+
+  .loader {
+    margin: 50px 0 50px 42%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .loader {
+    margin: 50px 0 50px 39%;
+  }
+}

@@ -1,0 +1,29 @@
+.paginationContainer {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.paginationButton {
+  background-color: #636262;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paginationButton:hover {
+  background-color: #969393;
+}
+
+.paginationButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.paginationCurrentPage {
+  font-size: 16px;
+  margin: 0 10px;
+}
